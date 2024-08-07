@@ -1,11 +1,11 @@
 # News Website
 
-News Website is a frontend web application built with React and JavaScript. It fetches news from a third-party API, providing a seamless browsing experience. The application includes infinite scrolling for continuous content loading and tag-based search functionality to filter news articles.
+News Website is a frontend web application built with React and TypeScript. It fetches news from a third-party API, providing a seamless browsing experience. The application includes infinite scrolling for continuous content loading and tag-based search functionality to filter news articles.
 
 ## Technologies Used:
 
 - React for building the user interface
-- JavaScript for functionality
+- TypeScript for functionality
 - Redux for state management
 - RTK Query for data fetching and caching
 - Third-Party [API](https://currentsapi.services/en) for fetching news
