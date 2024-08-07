@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# News Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+News Website is a frontend web application built with React and JavaScript. It fetches news from a third-party API, providing a seamless browsing experience. The application includes infinite scrolling for continuous content loading and tag-based search functionality to filter news articles.
 
-Currently, two official plugins are available:
+## Technologies Used:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React for building the user interface
+- JavaScript for functionality
+- Redux for state management
+- RTK Query for data fetching and caching
+- Third-Party [API](https://currentsapi.services/en) for fetching news
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![NewsWebsiteGifv2](https://github.com/user-attachments/assets/38c82f28-e21d-45e3-ab6d-f524d3282560)
