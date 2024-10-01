@@ -1,0 +1,77 @@
+- .env
+- .eslintrc.cjs
+- .gitignore
+- components.json
+- index.html
+- package-lock.json
+- package.json
+- postcss.config.js
+- public
+- README.md
+- src
+  - App.tsx
+  - assets
+    - icons
+      - ArrowLeft.tsx
+      - ArrowRight.tsx
+      - index.ts
+      - MoreArrow.tsx
+    - rav-icons
+      - arrow-left.svg
+      - arrow-right.svg
+      - MoreArrow.svg
+      - Website-logo.svg
+  - components
+    - Categories.tsx
+    - FilterSection.tsx
+    - Header
+      - CurrentTime.tsx
+      - Header.tsx
+    - Line.tsx
+    - MessagePopup.tsx
+    - NewsGrid.tsx
+    - NewsItem
+      - NewsItem.tsx
+      - NewsItemCategories.tsx
+    - shadcn
+      - ui
+        - button.tsx
+        - carousel.tsx
+        - input.tsx
+    - Skeletons
+      - CategorySkeleton.tsx
+      - NewsItemSkeleton.tsx
+      - Skeleton.tsx
+    - Wrapper.tsx
+  - global.css
+  - helpers
+    - formatTime.ts
+    - newsGridTemplates.ts
+    - newsItemImgPos.ts
+  - hooks
+    - redux.ts
+    - useGridTemplate.ts
+    - useHorizontalScroll.ts
+    - useMediaQuery.ts
+    - useNewsHandler.ts
+  - index.css
+  - main.tsx
+  - models
+    - ICategories.ts
+    - IGrid.ts
+    - INews.ts
+    - ISkeleton.ts
+  - services
+    - news.service.ts
+  - store
+    - slices
+      - currentNews.slice.ts
+      - messagePopup.slice.ts
+    - store.ts
+  - utils
+    - utils.ts
+  - vite-env.d.ts
+- tailwind.config.js
+- tsconfig.json
+- tsconfig.node.json
+- vite.config.ts
